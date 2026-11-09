@@ -1,8 +1,8 @@
-# Spam and Phishing Email Detection: Language Models and BERT Encoders
+# Spam and Phishing Email Detection: Language Models, BERT Encoders, T5 and BART
 
-Experiment notebooks for the paper *"Prompting, LoRA, or Full Fine Tuning? Benchmarking Seven Language Models and Nine BERT Encoders for Spam and Phishing Email Detection"* by Annas Wasim Malik, Rubab Javaid and Ali Saeed (University of Central Punjab, Lahore, Pakistan).
+Experiment notebooks for the paper *"Prompting, LoRA, or Full Fine Tuning? Benchmarking Language Models, BERT Encoders and Encoder-Decoder Models for Spam and Phishing Email Detection"* by Annas Wasim Malik, Rubab Javaid and Ali Saeed (University of Central Punjab, Lahore, Pakistan).
 
-All 17 experiments are public Kaggle notebooks with full code, outputs and trained weights. Every notebook uses the same cleaned data, the same split and the same frozen test set of 6,575 emails (checked by a SHA-256 fingerprint).
+All 22 experiments are public Kaggle notebooks with full code, outputs and trained weights. Every notebook uses the same cleaned data, the same split and the same frozen test set of 6,575 emails (checked by a SHA-256 fingerprint).
 
 Dataset: [Phishing Email Dataset](https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset) (Kaggle, CC BY-SA 4.0).
 
@@ -27,3 +27,8 @@ Dataset: [Phishing Email Dataset](https://www.kaggle.com/datasets/naserabdullaha
 | | DeBERTa-v3-base | https://www.kaggle.com/code/awasim/phishing-bert-deberta-v3-base |
 | | SecureBERT | https://www.kaggle.com/code/awasim/phishing-bert-securebert |
 | | ModernBERT-base | https://www.kaggle.com/code/awasim/phishing-bert-modernbert-base |
+| T5 and BART (encoder-decoder) | T5-small | https://www.kaggle.com/code/awasim/phishing-seq2seq-t5-small |
+| | T5-base | https://www.kaggle.com/code/awasim/phishing-seq2seq-t5-base |
+| | T5-large | https://www.kaggle.com/code/awasim/phishing-seq2seq-t5-large |
+| | BART-base | https://www.kaggle.com/code/awasim/phishing-seq2seq-bart-base |
+| | BART-large | https://www.kaggle.com/code/awasim/phishing-seq2seq-bart-large |
