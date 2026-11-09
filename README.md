@@ -1,6 +1,6 @@
 # Spam and Phishing Email Detection: Language Models, BERT Encoders, T5 and BART
 
-Experiment notebooks for the paper *"Prompting, LoRA, or Full Fine Tuning? Benchmarking Language Models, BERT Encoders and Encoder-Decoder Models for Spam and Phishing Email Detection"* by Annas Wasim Malik, Rubab Javaid and Ali Saeed (University of Central Punjab, Lahore, Pakistan).
+Experiment notebooks for the paper *"Prompting, LoRA or Full Fine Tuning: A Controlled Comparison of 21 Models for Spam and Phishing Email Detection"* by Annas Wasim Malik, Rubab Javaid and Ali Saeed (University of Central Punjab, Lahore, Pakistan).
 
 All 22 experiments are public Kaggle notebooks with full code, outputs and trained weights. Every notebook uses the same cleaned data, the same split and the same frozen test set of 6,575 emails (checked by a SHA-256 fingerprint).
 
